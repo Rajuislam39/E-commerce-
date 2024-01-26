@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'view/Splash.dart';
+import 'package:groupproject/src/features/authentication/screens/splash_screen.dart';
 
 
 
@@ -12,6 +11,6 @@ void main(){
 MaterialApp kkk(){
   return MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: Splash(),
+home: SplashScreen(),
   );
 }
