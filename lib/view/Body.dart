@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:groupproject/Account.dart';
-import 'package:groupproject/Filters.dart';
-import 'package:groupproject/Payment.dart';
-import 'package:groupproject/Singin.dart';
-import 'package:groupproject/Status.dart';
-import 'package:groupproject/Topup.dart';
+import 'package:groupproject/Catagory/Account.dart';
+import 'package:groupproject/view/Filters.dart';
+import 'package:groupproject/view/Payment.dart';
+import 'package:groupproject/view/Singin.dart';
+import 'package:groupproject/view/Status.dart';
+import 'package:groupproject/view/Topup.dart';
 
-import 'Catagory/Catagory.dart';
+import '../Catagory/Catagory.dart';
 
 class Body extends StatefulWidget {
   const Body({super.key});

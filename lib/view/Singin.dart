@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:groupproject/Body.dart';
-import 'package:groupproject/Payment.dart';
+import 'package:groupproject/view/Body.dart';
+import 'package:groupproject/view/Payment.dart';
 
 class Singin extends StatefulWidget {
   const Singin({super.key});

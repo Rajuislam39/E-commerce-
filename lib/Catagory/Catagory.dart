@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:groupproject/Payment.dart';
+import 'package:groupproject/view/Payment.dart';
 
 class Catagory extends StatefulWidget {
   Catagory({super.key});
