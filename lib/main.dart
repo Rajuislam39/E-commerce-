@@ -1,20 +1,26 @@
 import 'package:flutter/material.dart';
 
+
+
 import 'src/utils/theme/theme.dart';
 
 void main() {
-  runApp(kkk());
+  runApp(MyApp());
+
 }
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
-MaterialApp kkk() {
-  return MaterialApp(
-    debugShowCheckedModeBanner: false,
-    theme: TAppTheme.lightTheme,
-
-    darkTheme: TAppTheme.darkTheme,
-    themeMode: ThemeMode.light,
-    home: AppHome(),
-  );
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: TAppTheme.lightTheme,
+      darkTheme: TAppTheme.darkTheme,
+      themeMode: ThemeMode.light,
+      home: AppHome(),
+    );
+  }
 }
 
 class AppHome extends StatefulWidget {
@@ -25,7 +31,6 @@ class AppHome extends StatefulWidget {
 }
 
 class _AppHomeState extends State<AppHome> {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -104,7 +109,8 @@ class _AppHomeState extends State<AppHome> {
               child: Card(
                   // color: Colors.teal,
                   ),
-            )
+            ),
+            Image.asset("assets/images/burger-logo.png")
           ],
         ),
       ),
