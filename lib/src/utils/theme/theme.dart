@@ -10,7 +10,9 @@ class TAppTheme {
     brightness: Brightness.light,
     primarySwatch: Colors.deepPurple,
     textTheme: TTextTheme.lightTextTheme,
-    elevatedButtonTheme: ElevatedButtonThemeData(style: ElevatedButton.styleFrom())
+    elevatedButtonTheme: ElevatedButtonThemeData(style: ElevatedButton.styleFrom(
+      backgroundColor: Colors.black54
+    ))
   );
   static ThemeData darkTheme = ThemeData(
       brightness: Brightness.dark,
