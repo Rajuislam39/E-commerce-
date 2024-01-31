@@ -95,9 +95,10 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                 right: 20,
                 child:TextButton(
                     onPressed: ()=>
+                    //01-02-2024
                       controller.jumpToPage(page: 2)
                     ,
-                    child: const Text("Skip",style: TextStyle(color: Colors.grey),))),
+                    child: const Text("Skip",style: TextStyle(color: Colors.black),))),
             Positioned(
               bottom: 10,
                 child: AnimatedSmoothIndicator(activeIndex: controller.currentPage,count: 3,effect: WormEffect(
