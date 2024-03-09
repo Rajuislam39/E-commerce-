@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:groupproject/src/features/authentication/models/model_on_boarding.dart';
 
@@ -12,9 +11,9 @@ class OnBoardingPageWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final size = MediaQuery.of(context).size;
+
     return Container(
-        padding: EdgeInsets.all(20),
+        padding: const EdgeInsets.all(20),
         color: model.bgColor,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -39,7 +38,7 @@ class OnBoardingPageWidget extends StatelessWidget {
               model.counterText,
               style: Theme.of(context).textTheme.headline5,
             ),
-            SizedBox(
+            const SizedBox(
               height: 50,
             )
           ],
